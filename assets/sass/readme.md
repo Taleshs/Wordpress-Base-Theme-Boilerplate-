@@ -5,6 +5,7 @@ sass/
 |
 |– base/
 |   |– _reset.scss       # Reset/normalize
+|   |– _critical.scss    # To use in Above the Fold
 |   |– _typography.scss  # Typography rules
 |   ...                  # Etc…
 |
