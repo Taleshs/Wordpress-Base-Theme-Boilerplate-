@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/Taleshs/base/issues"
   },
-  "homepage": "https://github.com/Taleshs/base#readme"
+  "homepage": "https://github.com/Taleshs/base#readme",
+  "dependencies": {}
 }
