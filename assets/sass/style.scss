@@ -1,40 +1,40 @@
 /* ------------------------------------------------------------ *\
 	base/
 \* ------------------------------------------------------------ */
-@import './base/reset';
-@import './base/critical';
-@import './base/typography';
+@import "./base/reset";
+@import "./base/critical";
+@import "./base/typography";
 
 /* ------------------------------------------------------------ *\
     utils/
 \* ------------------------------------------------------------ */
-@import './utils/_variables';
-@import './utils/_functions';
-@import './utils/_mixins';
-@import './utils/_helpers';
+@import "./utils/_variables";
+@import "./utils/_functions";
+@import "./utils/_mixins";
+@import "./utils/_helpers";
 
 /* ------------------------------------------------------------ *\
     vendors/
 \* ------------------------------------------------------------ */
-@import './vendors/_bootstrap';
+@import "./vendors/_bootstrap";
 
 /* ------------------------------------------------------------ *\
 	components/
 \* ------------------------------------------------------------ */
-@import './components/_buttons';
+@import "./components/_buttons";
 
 /* ------------------------------------------------------------ *\
     layout/
 \* ------------------------------------------------------------ */
-@import './layout/_grid';
-@import './layout/_header';
-@import './layout/_navigation';
-@import './layout/_sidebar';
-@import './layout/_forms';
-@import './layout/_footer';
+@import "./layout/_grid";
+@import "./layout/_header";
+@import "./layout/_navigation";
+@import "./layout/_sidebar";
+@import "./layout/_forms";
+@import "./layout/_footer";
 
 /* ------------------------------------------------------------ *\
     pages/
 \* ------------------------------------------------------------ */
-@import './pages/_home';
-@import './pages/_contact';
+@import "./pages/_home";
+@import "./pages/_contact";
