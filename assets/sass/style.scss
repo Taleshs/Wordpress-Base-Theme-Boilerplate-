@@ -1,0 +1,61 @@
+/* ------------------------------------------------------------ *\
+	|– base/
+    |   |– _reset.scss       # Reset/normalize
+    |   |– _typography.scss  # Typography rules
+
+\* ------------------------------------------------------------ */
+@import './base/reset';
+@import './base/typography';
+
+/* ------------------------------------------------------------ *\
+    |– utils/
+    |   |– _variables.scss   # Sass Variables
+    |   |– _functions.scss   # Sass Functions
+    |   |– _mixins.scss      # Sass Mixins
+    |   |– _helpers.scss     # Class & placeholders helpers
+
+\* ------------------------------------------------------------ */
+@import './utils/_variables';
+@import './utils/_functions';
+@import './utils/_mixins';
+@import './utils/_helpers';
+
+/* ------------------------------------------------------------ *\
+    |– vendors/
+    |   |– _bootstrap.scss   # Bootstrap
+    
+\* ------------------------------------------------------------ */
+@import './vendors/_bootstrap';
+
+
+/* ------------------------------------------------------------ *\
+	|– components/
+    |   |– _buttons.scss     # Buttons
+
+\* ------------------------------------------------------------ */
+@import './components/_buttons';
+
+/* ------------------------------------------------------------ *\
+    |– layout/
+    |   |– _grid.scss        # Grid system
+    |   |– _header.scss      # Header
+    |   |– _navigation.scss  # Navigation
+    |   |– _sidebar.scss     # Sidebar
+    |   |– _forms.scss       # Forms
+    |   |– _footer.scss      # Footer
+
+\* ------------------------------------------------------------ */
+@import './layout/_grid';
+@import './layout/_header';
+@import './layout/_navigation';
+@import './layout/_sidebar';
+@import './layout/_forms';
+@import './layout/_footer';
+
+/* ------------------------------------------------------------ *\
+    |– pages/
+    |   |– _home.scss        # Home specific styles
+    |   |– _contact.scss     # Contact specific styles
+\* ------------------------------------------------------------ */
+@import './pages/_home';
+@import './pages/_contact';
