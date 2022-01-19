@@ -1,3 +1,6 @@
+# Sass Architecture Structure
+
+```
 sass/
 |
 |– base/
@@ -39,3 +42,4 @@ sass/
 |
 |
 `– style.scss            # Primary Sass file
+```
