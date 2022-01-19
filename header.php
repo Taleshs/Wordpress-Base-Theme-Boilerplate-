@@ -7,4 +7,20 @@
     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <?php get_head();?>
 </head>
-<body>
+<body <?php body_class();?> >
+    
+<header>
+    <div class="wrapper">
+        
+        <nav>
+            <?php
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'main_menu',
+                    'container' => false,
+                )
+            );
+            ?>
+        </nav>
+    </div>
+</header>
